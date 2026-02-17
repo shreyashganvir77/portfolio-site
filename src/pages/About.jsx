@@ -6,10 +6,12 @@ function About() {
           What I Do
         </h2>
         <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-          I build scalable cloud and AI-driven systems that automate
-          infrastructure, optimize performance, and power enterprise-grade
-          applications. My focus is on designing resilient platforms, improving
-          deployment velocity, and delivering measurable business impact.
+          I’m a Senior Software Engineer specializing in cloud architecture and
+          AI-driven automation. I build scalable Azure-based systems, optimize
+          infrastructure costs, and design resilient platforms that improve
+          deployment velocity and operational efficiency. My work focuses on
+          turning complex architecture into production-ready solutions that
+          deliver measurable business impact.
         </p>
 
         <h3 className="text-2xl md:text-3xl font-semibold text-slate-900 mt-16 mb-4">

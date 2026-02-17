@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <section className="min-h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-pink-50 flex flex-col">
@@ -6,15 +8,18 @@ function Home() {
           Shreyash Ganvir
         </div>
         <nav className="hidden md:flex items-center gap-2 rounded-full bg-slate-100/80 px-1.5 py-1 text-xs font-medium text-slate-600">
-          <a
-            href="/about"
-            className="px-3 py-1 rounded-full hover:bg-white shadow-sm transition"
+          <Link
+            to="/about"
+            className="px-3 py-1 rounded-full hover:bg-white shadow-sm transition-all duration-300"
           >
             About
-          </a>
-          <button className="px-3 py-1 rounded-full hover:bg-white shadow-sm transition">
+          </Link>
+          <Link
+            to="/projects"
+            className="px-3 py-1 rounded-full hover:bg-white shadow-sm transition-all duration-300"
+          >
             Projects
-          </button>
+          </Link>
           <button className="px-3 py-1 rounded-full hover:bg-white shadow-sm transition">
             Contact
           </button>

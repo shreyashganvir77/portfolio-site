@@ -25,9 +25,14 @@ function Home() {
             >
               View Projects
             </Link>
-            <button className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-6 py-2.5 text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-900 shadow-sm hover:border-slate-500 hover:shadow-md transition">
+            <a
+              href="https://drive.google.com/file/d/1ZD8nvr8h7_p5csXC-It_tbu4zGAazDoG/view?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-6 py-2.5 text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-900 shadow-sm hover:border-slate-500 hover:shadow-md transition"
+            >
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
       </main>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
 function Home() {
@@ -18,9 +19,12 @@ function Home() {
             architecture, and intelligent automation.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <button className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-2.5 text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-50 shadow-[0_18px_30px_rgba(79,70,229,0.45)] hover:bg-indigo-500 transition">
+            <Link
+              to="/projects"
+              className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-2.5 text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-50 shadow-[0_18px_30px_rgba(79,70,229,0.45)] hover:bg-indigo-500 transition"
+            >
               View Projects
-            </button>
+            </Link>
             <button className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-6 py-2.5 text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-900 shadow-sm hover:border-slate-500 hover:shadow-md transition">
               Download Resume
             </button>
